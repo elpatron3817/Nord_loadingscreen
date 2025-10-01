@@ -31,6 +31,7 @@ Eine moderne und vollständig anpassbare Loading Screen Resource für FiveM Serv
 ### Schritt 1: Download
 ```bash
 git clone https://github.com/deinname/fivem-loadingscreen.git
+```bash
 oder lade die Resource als ZIP herunter und entpacke sie.
 Schritt 2: Resource einbinden
 
