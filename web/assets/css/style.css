@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/* bg */
+body{
+    background: linear-gradient(72.73deg, #004C94 0%, #0D0D0D 99.58%);
+    overflow-y: hidden; 
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+    -user-select: none;
+    -webkit-user-select: none; /* Chrome/Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+ */
+    font-family: Roboto;
+}
+
+#logo{
+    position: absolute;
+    top: 6.815vh;
+    width: 18.148vh;
+    height: 18.148vh;
+    left: 7vh;
+}
+
+#gta{
+    position: inherit;
+    width: 100%;
+    height: 100%;
+}
+
+/* homepage */
+#home_name{
+    position: absolute;
+    font-family: Roboto;
+    color: #0051FF;
+    font-size: 5.791vh;
+    font-weight:  700;
+    left: 5%;
+    top: 30%;
+}
+#home_titel{
+    position: absolute;
+    width: 68vh;
+    font-family: Roboto;
+    color: #ffffff;
+    font-size: 3.682vh;
+    font-weight:  700;
+    left: 5%;
+    top: 37%;
+}
+#home_text{
+    position: absolute;
+    font-family: Roboto;
+    width: 80.2vh;
+    color: #ffffff;
+    font-size: 2.4vh;
+    font-weight:  500;
+    left: 5%;
+    top: 47%;
+}
+
+/* discord panel */
+#ds_container{
+    position: absolute;
+    top: 70%;
+    left: 5%;
+    width: 67.2vh;
+    height: 11.4vh;
+    background: #252a2e80;
+    border-radius: 1vh
+}
+#ds_logo{
+    position: inherit;
+    top: 26%;
+    left: 5%;
+    width: 7vh;
+}
+#ds_titel{
+    position: inherit;
+    top: 26%;
+    left: 22%;   
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 2.6vh
+}
+#ds_text{
+    position: inherit;
+    top: 52%;
+    left: 22%;   
+    color: #ffffff9b;
+    font-weight: 700;
+    font-size: 2.6vh
+}
+#ds_btn{
+    position: inherit;
+    top: 25%;
+    left: 69%;  
+    color: #ffffff;
+    font-weight: 700;
+    border: none;
+    font-size: 2.6vh;
+    width: 18.8vh;
+    height: 6.3vh;
+    background: #2E87EC;
+    border-radius: .7vh;
+    cursor: pointer;
+    transition: 0.5s;
+}
+#ds_tx{
+    position: relative;
+    left: -9%;
+}
+#ds_btn:hover{
+    top: 20%;
+    transition: 0.5s;
+}
+#ds_arrow{
+    position: inherit;
+    transform: translateY(-50%);
+    right: 1vh;
+    width: 3vh;
+    top: 50%;
+}
+#ms-bg {
+    position: absolute;
+    transform: skew(-10deg) translateX(-50%);
+    width: 17.657vh;
+    height: 4.822vh;
+    left: 50%;
+    top: 3.908vh;
+    background: rgba(51, 69, 83, 0.85);
+    border-radius: 0.926vh;
+}
+
+#ms-ac {
+    position: inherit;
+    width: 8.8285vh;
+    height: 4.954vh;
+    background: #0084FF;
+    left: 0%;
+    box-shadow: 0px 0px 3.5vh rgba(0, 132, 255, 0.45);
+    border-radius: 0.926vh;
+    z-index: 1; /* Hintergrundebene */
+    transition: left 0.3s ease; /* Animiert die Änderung von left */
+}
+
+#ms-on {
+    position: absolute;
+    transform: translateY(-50%) skew(10deg);
+    top: 50%;
+    left: 2.207125vh;
+    text-align: right;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 3.171vh;
+    text-align: center;
+    color: #FFFFFF;
+    z-index: 2;
+    cursor: pointer;
+}
+
+#ms-of {
+    position: absolute;
+    transform: translateY(-50%) skew(10deg);
+    top: 50%;
+    left: 11.035625vh;
+    text-align: right;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 3.171vh;
+    text-align: center;
+    color: #FFFFFF;
+    z-index: 2;
+    cursor: pointer;
+}
+#ms-span{
+    transform: translateX(-50%);
+    position: absolute;
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    left: 50%;
+    top: 1vh;
+    width: 8.8285vh;
+    height: 4.954vh;
+}
+
+#title-team{
+    position: absolute;
+    font-family: Roboto;
+    color: #ffffff;
+    font-size: 5.791vh;
+    font-weight:  700;
+    left: 5%;
+    top: 25%;
+}
+#text-team{
+    position: absolute;
+    font-family: Roboto;
+    color: #ffffff;
+    font-size: 2.5vh;
+    font-weight:  700;
+    left: 5%;
+    top: 35%;
+}
+#team-main{
+    position: absolute;
+    top: 40vh;
+    left: 10vh;
+    width: 52.019vh;
+    height: 56.481vh;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2vh;
+    overflow-x: hidden;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+#tm-case1{
+    position: relative;
+    width: 23.796vh;
+    height: 26.759vh;
+    background: rgba(80, 92, 122, 0.3);
+    border-radius: 1.111vh;
+}
+#team{
+    position: relative;
+    transform: translateX(-50%) translateY(-50%);
+    left: 50%;
+    top: 50%;
+    width: 20.503vh;
+    height: 23.056vh;
+}
+#btn_home{
+    position: absolute;
+    cursor: pointer;
+    border: none;
+    width: 11.744vh;
+    height: 4.034vh;
+    left: 17.2%;
+    top: 13.815vh;
+    font-family: Roboto;
+    font-weight: 500;
+    background: rgba(6, 65, 122, 0.6);
+    border-radius: 5.44653px;
+    color: white;
+    z-index: 1000;
+    transition: 0.5s;
+}
+#btn_home:hover{
+    background: #0084FF;
+    box-shadow: 0px 0px 29.4113px 16.3396px rgba(0, 132, 255, 0.45);
+}
+#btn_team{
+    position: absolute;
+    cursor: pointer;
+    border: none;
+    width: 11.744vh;
+    height: 4.034vh;
+    left: 25.2%;
+    top: 13.815vh;
+    font-family: Roboto;
+    font-weight: 500;
+    background: rgba(6, 65, 122, 0.6);
+    border-radius: 5.44653px;
+    color: white;
+    z-index: 1000;
+    transition: 0.4s;
+}
+#btn_team:hover{
+    background: #0084FF;
+    box-shadow: 0px 0px 29.4113px 16.3396px rgba(0, 132, 255, 0.45);
+}
+#team-name{
+    position: absolute;
+    color: white;
+    font-size: 3vh;
+    font-family: Roboto;
+    font-weight: 700;
+    z-index: 1001;
+    left: 10%;
+    top: 70%;
+}
+#team-rank{
+    position: absolute;
+    color: rgb(208, 208, 208);
+    font-size: 2vh;
+    font-family: Roboto;
+    font-weight: 400;
+    z-index: 1001;
+    left: 10%;
+    top: 83%;
+}
