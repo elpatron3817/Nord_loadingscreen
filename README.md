@@ -195,11 +195,10 @@ Dieses Projekt steht unter der MIT Lizenz.
 💬 Support
 Bei Fragen oder Problemen:
 
-🐛 Issue erstellen
-💬 Discord Server
-📧 Email
+💬 Discord Server : https://discord.gg/5rV7BJ7nDX
+
 
 👏 Credits
 
-Entwickler: YourName
-Design Inspiration: FiveM Community
+Entwickler: elpatron3817
+Design Inspiration: Final City
