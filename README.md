@@ -104,7 +104,7 @@ Musik ändern
 Ersetze tuyo.mp3 in web/assets/audio/ mit deiner Musik
 Unterstützte Formate: MP3, WAV, OGG
 Update den Pfad in der config.js falls nötig
-
+```bash
 📁 Dateistruktur
 fivem-loadingscreen/
 │
@@ -130,6 +130,7 @@ fivem-loadingscreen/
         │
         └── audio/              # Audio Dateien
             └── tuyo.mp3
+```
 🎨 Anpassungen
 CSS Styling anpassen
 Bearbeite web/assets/css/style.css um:
